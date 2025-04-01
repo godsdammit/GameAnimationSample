@@ -7,6 +7,7 @@ Saved/
 # Visual Studio specific
 .vscode/
 .vs/
+.vsconfig
 *.VC.db
 *.opensdf
 *.opendb
