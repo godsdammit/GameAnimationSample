@@ -3,6 +3,13 @@ Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
+Build/
+*.dmp
+*.log
+
+# Plugins
+Plugins/*/Intermediate/
+Plugins/*/Saved/
 
 # Visual Studio specific
 .vscode/
@@ -23,5 +30,8 @@ Saved/
 
 # Backup files
 *.tmp
-*.log
 *.bak
+
+# Editor-specific settings
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
