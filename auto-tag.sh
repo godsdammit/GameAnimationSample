@@ -32,8 +32,8 @@ else
   new_tag="v${major}.${minor}.${patch}"
 fi
 
-# Append the current date and time to the tag (format: YYYYMMDD-HHMMSS)
-timestamp=$(date +"%Y%m%d-%H%M%S")
+# Append the current date and time to the tag (format: YYYY_MM_DD/HH_MM_SS-AMPM)
+timestamp=$(date +"%Y_%m_%d/%I_%M_%S-%p")
 new_tag="${new_tag}-${timestamp}"
 
 # Create and push the new tag
