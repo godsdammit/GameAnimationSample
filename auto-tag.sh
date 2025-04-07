@@ -46,4 +46,11 @@ new_tag="${new_tag}-${timestamp}"
 git tag -a "$new_tag" -m "Auto-generated tag: $new_tag"
 git push origin "$new_tag"
 
+echo "Created and pushed tag: $new_tag"tamp=$(date +"%Y_%m_%d/%I_%M_%S-%p")
+new_tag="${new_tag}-${timestamp}"
+
+# Create and push the new tag
+git tag -a "$new_tag" -m "Auto-generated tag: $new_tag"
+git push origin "$new_tag"
+
 echo "Created and pushed tag: $new_tag"
