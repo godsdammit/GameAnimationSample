@@ -18,14 +18,17 @@ git fetch --tags
 # Get the latest tag
 latest_tag=$(git describe --tags --abbrev=0 2>/dev/null)
 
+# Strip the timestamp (if present) for validation
+base_tag=${latest_tag%-*}
+
 # If no tags exist, start with v1.0.0
-if [ -z "$latest_tag" ]; then
+if [ -z "$base_tag" ]; then
   major=1
   minor=0
   patch=0
 else
-  # Split the latest tag into major, minor, and patch components
-  IFS='.' read -r major minor patch <<<"${latest_tag#v}"
+  # Split the base tag into major, minor, and patch components
+  IFS='.' read -r major minor patch <<<"${base_tag#v}"
 
   # Validate the version format
   if [[ ! "$major" =~ ^1$ || ! "$minor" =~ ^0$ || ! "$patch" =~ ^[0-9]+$ ]]; then
