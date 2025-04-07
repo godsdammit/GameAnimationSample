@@ -56,10 +56,6 @@ fi
 # Create the new tag
 new_tag="v${major}.${minor}.${patch}"
 
-# Append the current date and time to the tag (format: YYYY_MM_DD/HH_MM_SS-AMPM)
-timestamp=$(date +"%Y_%m_%d/%I_%M_%S-%p")
-new_tag="${new_tag}-${timestamp}"
-
 # Create and push the new tag
 git tag -a "$new_tag" -m "Auto-generated tag: $new_tag"
 git push origin "$new_tag"
