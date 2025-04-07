@@ -2,7 +2,6 @@
 # INSTRUCTIONS:
 # Run the Script: Execute the script to automatically create and push a new tag.
 # Execute the script by running IN GIT BASH TERMINAL: ./auto-tag.sh
-# Comment 2 for update only. 
 
 # Ensure the script is run on the 'main' branch
 current_branch=$(git rev-parse --abbrev-ref HEAD)
@@ -17,6 +16,9 @@ git fetch --tags
 # Get the latest tag
 latest_tag=$(git describe --tags --abbrev=0 2>/dev/null)
 
+# Strip the timestamp (if present) for validation
+base_tag=${latest_tag%-*}
+
 # Get the commit hash of the latest tag
 latest_tag_commit=$(git rev-list -n 1 "$latest_tag" 2>/dev/null)
 
@@ -30,11 +32,13 @@ if [ "$latest_tag_commit" == "$current_commit" ]; then
 fi
 
 # If no tags exist, start with the initial version v1.0.0
-if [ -z "$latest_tag" ]; then
-  new_tag="v1.0.0"
+if [ -z "$base_tag" ]; then
+  major=1
+  minor=0
+  patch=0
 else
-  # Split the latest tag into major, minor, and patch components
-  IFS='.' read -r major minor patch <<<"${latest_tag#v}"
+  # Split the base tag into major, minor, and patch components
+  IFS='.' read -r major minor patch <<<"${base_tag#v}"
 
   # Validate that major, minor, and patch are numbers
   if [[ ! "$major" =~ ^[0-9]+$ || ! "$minor" =~ ^[0-9]+$ || ! "$patch" =~ ^[0-9]+$ ]]; then
@@ -47,10 +51,10 @@ else
 
   # Increment the patch version
   patch=$((patch + 1))
-
-  # Create the new tag
-  new_tag="v${major}.${minor}.${patch}"
 fi
+
+# Create the new tag
+new_tag="v${major}.${minor}.${patch}"
 
 # Append the current date and time to the tag (format: YYYY_MM_DD/HH_MM_SS-AMPM)
 timestamp=$(date +"%Y_%m_%d/%I_%M_%S-%p")
