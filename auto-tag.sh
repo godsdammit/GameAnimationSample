@@ -3,6 +3,16 @@
 # Run the Script: Execute the script to automatically create and push a new tag.
 # Execute the script by running IN GIT BASH TERMINAL: ./auto-tag.sh
 
+# Ensure the script is run on the 'main' branch
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$current_branch" != "main" ]; then
+  echo "Error: Tags should only be created on the 'main' branch."
+  exit 1
+fi
+
+# Fetch the latest tags from the remote repository
+git fetch --tags
+
 # Get the latest tag
 latest_tag=$(git describe --tags --abbrev=0 2>/dev/null)
 
@@ -28,7 +38,10 @@ else
   # Validate that major, minor, and patch are numbers
   if [[ ! "$major" =~ ^[0-9]+$ || ! "$minor" =~ ^[0-9]+$ || ! "$patch" =~ ^[0-9]+$ ]]; then
     echo "Error: Invalid version format in the latest tag ($latest_tag). Expected format: v<major>.<minor>.<patch>"
-    exit 1
+    echo "Falling back to v1.0.0 as the base tag."
+    major=1
+    minor=0
+    patch=0
   fi
 
   # Increment the patch version
@@ -40,13 +53,6 @@ fi
 
 # Append the current date and time to the tag (format: YYYY_MM_DD/HH_MM_SS-AMPM)
 timestamp=$(date +"%Y_%m_%d/%I_%M_%S-%p")
-new_tag="${new_tag}-${timestamp}"
-
-# Create and push the new tag
-git tag -a "$new_tag" -m "Auto-generated tag: $new_tag"
-git push origin "$new_tag"
-
-echo "Created and pushed tag: $new_tag"tamp=$(date +"%Y_%m_%d/%I_%M_%S-%p")
 new_tag="${new_tag}-${timestamp}"
 
 # Create and push the new tag
