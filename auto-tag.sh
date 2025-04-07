@@ -1,5 +1,8 @@
 #!/bin/bash
-
+#INSTRUCTIONS: 
+#Run the Script: Execute the script to automatically create and push a new tag:
+#Execute the script by running IN GIT BASH TERMINAL:  ./auto-tag.sh
+#
 # Get the latest tag
 latest_tag=$(git describe --tags --abbrev=0 2>/dev/null)
 
