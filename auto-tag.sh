@@ -2,6 +2,7 @@
 # INSTRUCTIONS:
 # Run the Script: Execute the script to automatically create and push a new tag.
 # Execute the script by running IN GIT BASH TERMINAL: ./auto-tag.sh
+# comment fake 100. 
 
 # Ensure the script is run on the 'main' branch
 current_branch=$(git rev-parse --abbrev-ref HEAD)
