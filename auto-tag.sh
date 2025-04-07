@@ -25,9 +25,9 @@ else
   # Split the latest tag into major, minor, and patch components
   IFS='.' read -r major minor patch <<<"${latest_tag#v}"
 
-  # Ensure patch is a valid number before incrementing
-  if [[ ! "$patch" =~ ^[0-9]+$ ]]; then
-    echo "Error: Invalid patch version in the latest tag ($latest_tag)."
+  # Validate that major, minor, and patch are numbers
+  if [[ ! "$major" =~ ^[0-9]+$ || ! "$minor" =~ ^[0-9]+$ || ! "$patch" =~ ^[0-9]+$ ]]; then
+    echo "Error: Invalid version format in the latest tag ($latest_tag). Expected format: v<major>.<minor>.<patch>"
     exit 1
   fi
 
