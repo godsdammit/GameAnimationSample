@@ -1,8 +1,8 @@
 #!/bin/bash
-#INSTRUCTIONS: 
-#Run the Script: Execute the script to automatically create and push a new tag:
-#Execute the script by running IN GIT BASH TERMINAL:  ./auto-tag.sh
-#
+# INSTRUCTIONS:
+# Run the Script: Execute the script to automatically create and push a new tag.
+# Execute the script by running IN GIT BASH TERMINAL: ./auto-tag.sh
+
 # Get the latest tag
 latest_tag=$(git describe --tags --abbrev=0 2>/dev/null)
 
@@ -24,6 +24,12 @@ if [ -z "$latest_tag" ]; then
 else
   # Split the latest tag into major, minor, and patch components
   IFS='.' read -r major minor patch <<<"${latest_tag#v}"
+
+  # Ensure patch is a valid number before incrementing
+  if [[ ! "$patch" =~ ^[0-9]+$ ]]; then
+    echo "Error: Invalid patch version in the latest tag ($latest_tag)."
+    exit 1
+  fi
 
   # Increment the patch version
   patch=$((patch + 1))
