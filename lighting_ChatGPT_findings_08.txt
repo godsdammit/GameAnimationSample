@@ -1,0 +1,17 @@
+Subject: Lighting
+
+This package includes a Python script for Unreal Engine that scans all level actors and replaces 
+Datasmith-imported Revit ceiling lights (identified by the tag "Max_superclassId: light") 
+with the Blueprint instance "BP_CeilingLight_01".
+
+Instructions:
+1. Open your project in Unreal Engine.
+2. Open the Output Log or Python Editor.
+3. Run the contents of replace_revit_lights.py.
+4. All tagged Revit light meshes will be replaced in-place with your custom Blueprint.
+
+Commit message suggestion:
+feat(lighting): automate BP light replacement for Datasmith imports
+
+Generated for: Mr. Gary
+By: Juniper (ChatGPT)
