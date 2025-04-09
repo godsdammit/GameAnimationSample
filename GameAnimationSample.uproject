@@ -67,6 +67,22 @@
 				"Linux",
 				"Android"
 			]
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "MovieSceneTextTrack",
+			"Enabled": true
+		},
+		{
+			"Name": "MLDeformerFramework",
+			"Enabled": true
 		}
 	],
 	"EpicSampleNameHash": "1673045636"
