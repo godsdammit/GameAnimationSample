@@ -83,6 +83,10 @@
 		{
 			"Name": "MLDeformerFramework",
 			"Enabled": true
+		},
+		{
+			"Name": "DatasmithImporter",
+			"Enabled": true
 		}
 	],
 	"EpicSampleNameHash": "1673045636"

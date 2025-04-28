@@ -1,0 +1,52 @@
+<DatasmithUnrealScene>
+	<Version>0.24</Version>
+	<SDKVersion>5.5.0-37670630</SDKVersion>
+	<Host>Autodesk 3dsmax 27.0.4918Arnold</Host>
+	<Application Vendor="Autodesk" ProductName="3dsmax" ProductVersion="27.0.4918"/>
+	<ResourcePath>E:/UNREAL ENGINE/TEMPLATE PROJECTS/GameAnimationSample/MaxContent</ResourcePath>
+	<User ID="37b0acd74ced3b2e8a80c79a94de275e" OS="Windows 8"/>
+	<Geolocation/>
+	<StaticMesh name="1551" label="FrameFront_01">
+		<file path="Front_door_01_Assets/1551.udsmesh"/>
+		<Size a="132.928268" x="7.083333" y="1.4175" z="17.70833"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="51ec4fbae5913bfef17b4c75ee18de7d"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<StaticMesh name="1553" label="DoorFront_01">
+		<file path="Front_door_01_Assets/1553.udsmesh"/>
+		<Size a="270.792358" x="6.666667" y="1.291667" z="17.374996"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="db1f472f699ee188c9ab1fb95f887bf2"/>
+		<Material id="2" name="Material__21"/>
+	</StaticMesh>
+	<ActorMesh name="1551" label="FrameFront_01" layer="0" mobility="Static">
+		<mesh name="1551"/>
+		<Transform tx="0.014968" ty="1.682428" tz="-0.025897" sx="11.999997" sy="11.999997" sz="12.0" qx="0.0" qy="0.0" qz="-0.99999" qw="-0.004452" qhex64="000000000000000000000000000000003ED78438EBFFEFBF85BABC5BD03B72BF"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_Poly" />
+		<tag value="Max.handle: 1551" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 0" />
+	</ActorMesh>
+	<ActorMesh name="1553" label="DoorFront_01" layer="0" mobility="Static">
+		<mesh name="1553"/>
+		<Transform tx="0.014968" ty="1.682428" tz="-0.025897" sx="11.999997" sy="11.999997" sz="12.0" qx="0.0" qy="0.0" qz="-0.99999" qw="-0.004452" qhex64="000000000000000000000000000000003ED78438EBFFEFBF85BABC5BD03B72BF"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_Poly" />
+		<tag value="Max.handle: 1553" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 0" />
+	</ActorMesh>
+	<MetaData name="1551" reference="Actor.1551">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="1553" reference="Actor.1553">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<Export Duration="0"/>
+</DatasmithUnrealScene>

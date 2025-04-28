@@ -1,0 +1,220 @@
+<DatasmithUnrealScene>
+	<Version>0.24</Version>
+	<SDKVersion>5.5.0-37670630</SDKVersion>
+	<Host>Autodesk 3dsmax 27.0.4918Arnold</Host>
+	<Application Vendor="Autodesk" ProductName="3dsmax" ProductVersion="27.0.4918"/>
+	<ResourcePath>E:/UNREAL ENGINE/TEMPLATE PROJECTS/GameAnimationSample/MaxContent</ResourcePath>
+	<User ID="37b0acd74ced3b2e8a80c79a94de275e" OS="Windows 8"/>
+	<Geolocation/>
+	<StaticMesh name="3" label="Object___2123771_">
+		<file path="Bracket_Export_01_Assets/3.udsmesh"/>
+		<Size a="2.253596" x="0.923755" y="0.061554" z="1.098683"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="b0b1dd504c86137603ef1cd1f0d397a6"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<StaticMesh name="5" label="Object___2127751_">
+		<file path="Bracket_Export_01_Assets/5.udsmesh"/>
+		<Size a="2.095634" x="0.87343" y="1.481895" z="0.798683"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="60b0e7ee90f696c108eadf894acac446"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<StaticMesh name="6" label="Object___2128186_">
+		<file path="Bracket_Export_01_Assets/6.udsmesh"/>
+		<Size a="2.253546" x="0.923756" y="0.061562" z="1.098682"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="e83d10c03487cc8a8a424ab4ad06f8db"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<StaticMesh name="8" label="Object___2130856_">
+		<file path="Bracket_Export_01_Assets/8.udsmesh"/>
+		<Size a="1.840482" x="0.87343" y="1.231911" z="0.798685"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="11592639fb3c122234e8417348363466"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<StaticMesh name="11" label="Object___2131611_">
+		<file path="Bracket_Export_01_Assets/11.udsmesh"/>
+		<Size a="0.669123" x="1.435911" y="1.075439" z="0.154165"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="1a6dec56359a61b0bed0e693c6b406d6"/>
+		<Material id="1" name="Generic"/>
+	</StaticMesh>
+	<StaticMesh name="12" label="Object___2131700_">
+		<file path="Bracket_Export_01_Assets/12.udsmesh"/>
+		<Size a="1.338248" x="7.001575" y="1.132576" z="0.154165"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="c6425760b3c2f895a3c11eaec5001ddf"/>
+		<Material id="1" name="Generic"/>
+	</StaticMesh>
+	<StaticMesh name="546" label="M_HSS-Hollow_Structural_Section_HSS50_8X50_8X6_4__2121081_">
+		<file path="Bracket_Export_01_Assets/546.udsmesh"/>
+		<Size a="23.84161" x="0.423333" y="6.527267" z="6.527262"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="294344f1722c08a9f1608314dba457a8"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<StaticMesh name="547" label="M_HSS-Hollow_Structural_Section_HSS50_8X50_8X6_4__2128799_">
+		<file path="Bracket_Export_01_Assets/547.udsmesh"/>
+		<Size a="19.742201" x="0.423334" y="5.479752" z="5.422945"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="570891bed6f6740956c4b606968fd582"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<StaticMesh name="548" label="M_L-Angle_L152X102X9_5__2111076_">
+		<file path="Bracket_Export_01_Assets/548.udsmesh"/>
+		<Size a="30.533577" x="7.374949" y="0.915215" z="1.266668"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="f001fb5fc527c50b1605bd8b285df427"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<StaticMesh name="549" label="M_L-Angle_L152X102X9_5__2131084_">
+		<file path="Bracket_Export_01_Assets/549.udsmesh"/>
+		<Size a="7.728553" x="1.804943" y="0.855888" z="1.266668"/>
+		<LightmapCoordinateIndex value="-1"/>
+		<LightmapUV value="-1"/>
+		<Hash value="eb7556b0fae98e6eb519b1d4c898bca0"/>
+		<Material id="1" name="Phase_-_Exist"/>
+	</StaticMesh>
+	<ActorMesh name="3" label="Object___2123771_" layer="0" mobility="Static">
+		<mesh name="3"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 3" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="5" label="Object___2127751_" layer="0" mobility="Static">
+		<mesh name="5"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 5" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="6" label="Object___2128186_" layer="0" mobility="Static">
+		<mesh name="6"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 6" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="8" label="Object___2130856_" layer="0" mobility="Static">
+		<mesh name="8"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 8" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="11" label="Object___2131611_" layer="0" mobility="Static">
+		<mesh name="11"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 11" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="12" label="Object___2131700_" layer="0" mobility="Static">
+		<mesh name="12"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 12" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="546" label="M_HSS-Hollow_Structural_Section_HSS50_8X50_8X6_4__2121081_" layer="0" mobility="Static">
+		<mesh name="546"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 546" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="547" label="M_HSS-Hollow_Structural_Section_HSS50_8X50_8X6_4__2128799_" layer="0" mobility="Static">
+		<mesh name="547"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 547" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="548" label="M_L-Angle_L152X102X9_5__2111076_" layer="0" mobility="Static">
+		<mesh name="548"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 548" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<ActorMesh name="549" label="M_L-Angle_L152X102X9_5__2131084_" layer="0" mobility="Static">
+		<mesh name="549"/>
+		<Transform tx="0.0" ty="0.0" tz="0.0" sx="12.0" sy="12.0" sz="12.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex64="000000000000008000000000000000000000000000000080000000000000F03F"/>
+		<tag value="Max.superclassof: GeometryClass" />
+		<tag value="Max.classof: Editable_mesh" />
+		<tag value="Max.handle: 549" />
+		<tag value="Max.isGroupHead: false" />
+		<tag value="Max.isGroupMember: false" />
+		<tag value="Max.parent.handle: 2" />
+	</ActorMesh>
+	<MetaData name="3" reference="Actor.3">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="5" reference="Actor.5">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="6" reference="Actor.6">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="8" reference="Actor.8">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="11" reference="Actor.11">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="12" reference="Actor.12">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="546" reference="Actor.546">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="547" reference="Actor.547">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="548" reference="Actor.548">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<MetaData name="549" reference="Actor.549">
+		<KeyValueProperty name="MapChannel:1" type="String" val="UVChannel_1"/>
+	</MetaData>
+	<Export Duration="0"/>
+</DatasmithUnrealScene>
