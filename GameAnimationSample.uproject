@@ -87,6 +87,10 @@
 		{
 			"Name": "DatasmithImporter",
 			"Enabled": true
+		},
+		{
+			"Name": "BlueprintStats",
+			"Enabled": true
 		}
 	],
 	"EpicSampleNameHash": "1673045636"
